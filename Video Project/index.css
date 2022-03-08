@@ -1,0 +1,29 @@
+.video-container{
+    position:fixed;
+    display: grid;
+    width:1366px;
+    z-index:-2;
+}
+header{
+    background-color:rgba(0, 0, 0, 0.5);  
+}
+h1{
+    color:white;
+    font-weight: bold;
+    font-size: 45px;
+    margin:0px auto;
+    line-height: 611px;
+    width:30%;
+    letter-spacing: 4px;
+    text-align: center;
+}
+div{
+    margin:-150px 0px 0px 50px;
+}
+.preloader{
+    position:fixed;
+    display: grid;
+    width:1366px;
+    margin:-200px 0px 0px 0px;
+    z-index:2;
+}

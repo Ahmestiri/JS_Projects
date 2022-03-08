@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Video -->
+    <header>
+        <video id="vid" class="video-container" controls mute autoplay loop src="video.mp4" type="video/mp4"></video>
+        <h1>Video Project</h1>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-primary btn-sm active" onclick="play()">
+                <input type="radio" name="options" id="play" style="display:none" checked> Play
+            </label>
+            <label class="btn btn-primary btn-sm" onclick="stop()">
+                <input type="radio" name="options" id="pause" style="display:none"> Pause
+            </label>
+        </div>
+    </header>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
