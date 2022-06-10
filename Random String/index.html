@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random String</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- Homepage -->
+    <h1 class="text-center mb-5" style="margin-top:150px;">Random String Generator Project</h1>
+    <div class="container">
+        <select class="bg-light form-control mb-5" id="select_option" onChange="change()">
+            <option value="">Select the string length</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button id="btn" type="submit" class="btn btn-primary d-flex offset-5 col-2 mb-5" onclick="generate()">
+            <span>Generate String</span>
+        </button>
+        <div id="result" class="text-center"></div>
+    </div>
+    <!--JS-->
+    <script src="index.js"></script>
+</body>
+
+</html>
